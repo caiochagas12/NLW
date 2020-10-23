@@ -1,14 +1,19 @@
 {
-  "name": "nwl",
+  "name": "proffy",
   "scripts": {
-    "dev": "nodemon src/servers.js"
+    "start": "nodemon src/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grioos/proffy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grioos/proffy/issues"
+  },
   "dependencies": {
     "express": "^4.17.1",
-    "nunjucks": "^3.2.2"
+    "nunjucks": "^3.2.2",
+    "sqlite-async": "^1.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
